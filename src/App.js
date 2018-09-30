@@ -6,6 +6,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className='navMenu'>
+        BLAH
+        </div>
+        <div className='hamburgerMenu'>
+        X
+        </div>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React, now with SCSS</h1>
