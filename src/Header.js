@@ -18,6 +18,11 @@ constructor (props) {
 	      	<li>DnD</li>
 	      	<li>Tutorials</li>
 	      </ul>
+
+	      <ul className = 'userLogin'>
+	      	<li>Login</li>
+	      	<li>Create Account</li>
+	      </ul>
       </div>
     );
   }

@@ -5,7 +5,7 @@ class mainHero extends Component {
 	constructor(props) {
 		super(props);
 		this.state = { content: 'normal' };
-		console.log('hero state: ' + this.state);
+		console.log('hero state: ' + this.state.content);
 	}
 	render () {
 		return (

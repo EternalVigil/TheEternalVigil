@@ -28,11 +28,25 @@ $break-medium: 860px;
     li {
       display: block;
       float: left;
-      margin: 0 15px;
+      margin: 5px 10px;
     }
     & li:hover {
       color: black;
       background-color: white;
+    }
+  }
+  .userLogin {
+    display: flex;
+    float: left;
+    position: relative;
+    list-style: none;
+    justify-content: flex-start;
+    left: 25%;
+
+    li {
+      display: block;
+      float: left;
+      margin: 0 5px;
     }
   }
 }

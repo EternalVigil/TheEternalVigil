@@ -22,10 +22,21 @@
     .navMenu .navLinks li {
       display: block;
       float: left;
-      margin: 0 15px; }
+      margin: 5px 10px; }
     .navMenu .navLinks li:hover {
       color: black;
       background-color: white; }
+  .navMenu .userLogin {
+    display: flex;
+    float: left;
+    position: relative;
+    list-style: none;
+    justify-content: flex-start;
+    left: 25%; }
+    .navMenu .userLogin li {
+      display: block;
+      float: left;
+      margin: 0 5px; }
 
 .hamburgerMenu {
   display: none; }
