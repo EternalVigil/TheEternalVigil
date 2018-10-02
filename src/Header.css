@@ -1,0 +1,45 @@
+.navMenu {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder; }
+  @media screen and (max-width: 450px) {
+    .navMenu {
+      display: none; } }
+  .navMenu .navLinks {
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+    list-style: none;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 10px 15px;
+    padding: 0; }
+    .navMenu .navLinks li {
+      display: block;
+      float: left;
+      margin: 0 15px; }
+    .navMenu .navLinks li:hover {
+      color: black;
+      background-color: white; }
+
+.hamburgerMenu {
+  display: none; }
+  @media screen and (max-width: 450px) {
+    .hamburgerMenu {
+      display: block;
+      float: left;
+      position: absolute;
+      height: 10%;
+      width: 10%;
+      background-color: black;
+      color: white;
+      font-size: 10vw;
+      font-weight: bolder;
+      text-align: center;
+      margin: auto;
+      padding: auto; } }
