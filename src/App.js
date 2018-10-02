@@ -5,11 +5,15 @@ import Footer from './Footer.js';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
         <Header />
-        <Hero />  
+        <Hero />
+        <div className = 'leftWindow' />
+        <div className = 'middleWindow' />
+        <div className = 'rightWindow' />  
         <Footer />
       </div>
     );

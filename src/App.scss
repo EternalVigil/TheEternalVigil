@@ -1,13 +1,25 @@
-$break-small: 450px;
-$break-medium: 860px;
+$break-small: 600px;
+$break-medium: 850px;
 
 .App {
-  display: block;
-  position: relative;
-  background-color: green;
-  height: 100vh;
-  width: 80%;
-  border: 2px solid black;
-  margin: auto;
-  padding: 0;
+	/*
+	@media screen and (max-width: $break-small) {
+		display: block;
+		position: relative;
+		float: left;
+		background-color: red;
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		padding: 0;	
+	}
+	*/
+	display: block;
+	position: relative;
+	float: left;
+	//flex-direction: column;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-color: green;
 }

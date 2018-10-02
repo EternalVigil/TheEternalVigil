@@ -7,16 +7,20 @@ $break-medium: 860px;
     display: none;
   }
 
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: block;
+  position: relative;
+  float: left;
   width: 100%;
+  height: 100%;
   background-color: black;
   color: white;
   font-size: 1rem;
   font-weight: bolder;
   .navLinks {
-    display: flex;
+    @media screen and (max-width: $break-small) {
+      display: none;
+    }
+    display: block;
     float: left;
     justify-content: flex-start;
     list-style: none;
@@ -36,12 +40,13 @@ $break-medium: 860px;
     }
   }
   .userLogin {
-    display: flex;
-    float: left;
+    @media screen and (max-width: $break-small) {
+      display: none;
+    }
+    display: block;
+    float: right;
     position: relative;
     list-style: none;
-    justify-content: flex-start;
-    left: 25%;
 
     li {
       display: block;
