@@ -1,0 +1,14 @@
+.stickyFooter {
+  display: flex;
+  float: left;
+  position: fixed;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  border: 2px solid black;
+  background-color: yellow;
+  color: blue;
+  width: 80%;
+  left: 9.85%;
+  margin: auto;
+  padding: 0; }

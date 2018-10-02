@@ -1,3 +1,6 @@
+$break-small: 450px;
+$break-medium: 860px;
+
 .App {
   display: block;
   position: relative;
@@ -6,4 +9,5 @@
   width: 80%;
   border: 2px solid black;
   margin: auto;
-  padding: 0; }
+  padding: 0;
+}
