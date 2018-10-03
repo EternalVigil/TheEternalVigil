@@ -1,0 +1,19 @@
+.columnContainer {
+  display: flex;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 250px;
+  background-color: grey; }
+
+.leftColumn, .middleColumn, .rightColumn {
+  display: block;
+  position: relative;
+  float: left;
+  width: 33%;
+  min-height: 250px;
+  margin: auto;
+  padding: 0;
+  background-color: silver;
+  border: 2px solid red;
+  border-radius: 5%; }

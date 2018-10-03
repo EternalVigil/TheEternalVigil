@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import './AboutAuthor.css';
 
 class aboutAuthor extends Component {
 	render () {
 		return (
-		<div class='autherBio'>
+		<div className='autherBio'>
+		<div className='authorImageContainer'>
+			<img className='authorImage' src='/' alt='' title='' />
+		</div>
 		Check this guy out.
 		</div>
 		);
