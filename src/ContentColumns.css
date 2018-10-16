@@ -4,6 +4,8 @@
   float: left;
   width: 100%;
   min-height: 250px;
+  margin: 10px 0 0;
+  padding: auto;
   background-color: grey; }
 
 .leftColumn, .middleColumn, .rightColumn {
