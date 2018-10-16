@@ -1,6 +1,15 @@
 $break-small: 600px;
 $break-medium: 850px;
-
+#root {
+	display: block;
+	position: relative;
+	float: left;
+	width: 80%;
+	height: 100%;
+	margin: 0 10%;
+	padding: 0;
+	background-color: silver;
+}
 .App {
 	/*
 	@media screen and (max-width: $break-small) {
@@ -21,5 +30,6 @@ $break-medium: 850px;
 	height: 100%;
 	width: 100%;
 	margin: auto;
+	padding: 0;
 	background-color: green;
 }
