@@ -12,11 +12,11 @@ constructor (props) {
     return (
       <div className='navMenu'>
 	      <ul className='navLinks'>
-	      	<li>Home</li>
-	      	<li>Portfolio</li>
-	      	<li>Projects</li>
-	      	<li>DnD</li>
-	      	<li>Tutorials</li>
+	      	<a href='/'><li>Home</li></a>
+	      	<a href='/portfolio'><li>Portfolio</li></a>
+	      	<a href='/projects'><li>Projects</li></a>
+	      	<a href='/dnd'><li>DnD</li></a>
+	      	<a href='/tutorials'><li>Tutorials</li></a>
 	      </ul>
 	      <ul className = 'userLogin'>
 	      	<li>Login</li>
