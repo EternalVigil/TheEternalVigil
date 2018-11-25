@@ -2,8 +2,13 @@ $break-small: 450px;
 $break-medium: 860px;
 
 .stickyFooter {
-	position: absolute;
+	clear: both;
+	display: block;
+	float: left;
+	position: relative;
 	bottom: 0;
 	width: 100%;
+	min-height: 100px;
+	height: auto;
 	background-color: gold;
 }

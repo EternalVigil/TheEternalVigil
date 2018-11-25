@@ -1,14 +1,20 @@
 .columnContainer {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
   position: relative;
   float: left;
   width: 100%;
   min-height: 250px;
+  height: 100%;
   margin: 10px 0 0;
   padding: auto;
   background-color: grey; }
 
-.leftColumn, .middleColumn, .rightColumn {
+.leftColumn,
+.middleColumn,
+.rightColumn {
   display: block;
   position: relative;
   float: left;
@@ -19,3 +25,11 @@
   background-color: silver;
   border: 2px solid red;
   border-radius: 5%; }
+  @media screen and (max-width: 450px) {
+    .leftColumn,
+    .middleColumn,
+    .rightColumn {
+      width: 98%;
+      margin: 0 1%;
+      padding: 0;
+      overflow: auto; } }

@@ -7,7 +7,8 @@
   min-height: 250px;
   margin: 10px 0 0;
   padding: auto;
-  background-color: orange; }
+  background-color: orange;
+  overflow: hidden; }
 
 .authorImageContainer {
   display: block;
@@ -19,6 +20,16 @@
   background-color: purple;
   margin: auto;
   padding: 0; }
+  @media screen and (max-width: 450px) {
+    .authorImageContainer {
+      display: block;
+      float: left;
+      position: relative;
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center; } }
 
 .authorImage {
   display: block;
@@ -26,4 +37,26 @@
   float: left;
   width: 100%;
   height: auto;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 0; }
+
+.authorDescription {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  padding: auto; }
+  @media screen and (max-width: 450px) {
+    .authorDescription {
+      clear: both;
+      display: block;
+      position: relative;
+      float: left;
+      width: 100%;
+      height: auto;
+      margin: 0 0 10px 0;
+      padding: 0;
+      text-align: center; } }

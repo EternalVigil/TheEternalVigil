@@ -1,32 +1,70 @@
+$break-small: 450px;
+$break-medium: 860px;
+
 .authorBio {
-	display: block;
-	position: relative;
-	float: left;
-	width: 100%;
-	height: auto;
-	min-height: 250px;
-	margin: 10px 0 0;
-	padding: auto;
-	background-color: orange;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin: 10px 0 0;
+    padding: auto;
+    background-color: orange;
+    overflow: hidden;
 }
 
 .authorImageContainer {
-	display: block;
-	position: relative;
-	float: left;
-	width: 25%;
-	height: auto;
-	min-height: 250px;
-	background-color: purple;
-	margin: auto;
-	padding: 0;
+    @media screen and (max-width: $break-small) {
+        display: block;
+        float: left;
+        position: relative;
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    display: block;
+    position: relative;
+    float: left;
+    width: 25%;
+    height: auto;
+    min-height: 250px;
+    background-color: purple;
+    margin: auto;
+    padding: 0;
 }
 
 .authorImage {
-	display: block;
-	position: relative;
-	float: left;
-	width: 100%;
-	height: auto;
-	border-radius: 50%;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.authorDescription {
+	@media screen and (max-width: $break-small) {
+		clear: both;
+		display: block;
+		position: relative;
+		float: left;
+		width: 100%;
+		height: auto;
+		margin: 0 0 10px 0;
+		padding: 0;
+		text-align: center;
+	}
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: auto;
 }

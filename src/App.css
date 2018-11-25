@@ -1,3 +1,7 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
 .App {
   /*
 	@media screen and (max-width: $break-small) {
@@ -15,9 +19,9 @@
   position: relative;
   float: left;
   flex-direction: column;
-  min-height: 100vh;
   height: 100%;
-  width: 100%;
-  margin: 0;
+  width: 95%;
+  margin: 0 2.5%;
   padding: 0;
-  background-color: green; }
+  background-color: green;
+  overflow: auto; }

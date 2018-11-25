@@ -1,10 +1,15 @@
 $break-small: 600px;
 $break-medium: 850px;
 
-#root {
+body, html {
+	margin: 0;
+	padding: 0;
 }
+
+#root {}
+
 .App {
-	/*
+    /*
 	@media screen and (max-width: $break-small) {
 		display: block;
 		position: relative;
@@ -16,14 +21,14 @@ $break-medium: 850px;
 		padding: 0;	
 	}
 	*/
-	display: block;
-	position: relative;
-	float: left;
-	flex-direction: column;
-	min-height: 100vh;
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: green;
+    display: block;
+    position: relative;
+    float: left;
+    flex-direction: column;
+    height: 100%;
+    width: 95%;
+    margin: 0 2.5%;
+    padding: 0;
+    background-color: green;
+    overflow: auto;
 }
