@@ -1,5 +1,4 @@
-$break-small: 450px;
-$break-medium: 860px;
+@import 'constants.scss';
 
 .columnContainer {
     display: flex;
